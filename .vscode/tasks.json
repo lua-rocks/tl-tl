@@ -1,0 +1,15 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run",
+      "type": "shell",
+      "options": {"cwd": "${workspaceFolder}"},
+      "command": ".vscode/tasks/default.sh",
+      "args": ["${file}"],
+      "group": {"kind": "build", "isDefault": true}
+    }
+  ]
+}

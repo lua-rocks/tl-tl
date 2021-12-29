@@ -85,8 +85,7 @@ local t: Tree<number> = {
   item = 1,
   { item = 2 },
   { item = "wtf", { item = 4 } }, -- Here should be an error, but...  
-} -- It seems that errors may not occur at deep variable initialization,
--- However error should always occur on wrong access to it.
+} -- This bug is already fixed, lets wait for the latest tl release.
 
 assert(t[2].item as string == "wtf")
 

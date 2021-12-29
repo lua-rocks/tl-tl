@@ -88,8 +88,6 @@ local t = {
 }
 
 
-print(t[2].item + 1)
-
 assert(t[2].item == "wtf")
 
 

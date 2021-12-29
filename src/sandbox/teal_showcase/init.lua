@@ -87,6 +87,9 @@ local t = {
    { item = "wtf", { item = 4 } },
 }
 
+
+print(t[2].item + 1)
+
 assert(t[2].item == "wtf")
 
 

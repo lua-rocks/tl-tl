@@ -2,4 +2,4 @@
 
 echo -e "\n========================RUN=======================\n"
 
-lua src/sandbox/init.lua
+lua src/sandbox/teal_showcase/init.lua

@@ -8,7 +8,7 @@
       "type": "shell",
       "options": {"cwd": "${workspaceFolder}"},
       "command": ".vscode/tasks/default.sh",
-      "args": ["${file}"],
+      "args": [],
       "group": {"kind": "build", "isDefault": true}
     }
   ]

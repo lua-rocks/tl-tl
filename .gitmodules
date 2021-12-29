@@ -1,0 +1,6 @@
+[submodule "git/inspect"]
+	path = git/inspect
+	url = git@github.com:kikito/inspect.lua.git
+[submodule "git/lume"]
+	path = git/lume
+	url = git@github.com:rxi/lume.git

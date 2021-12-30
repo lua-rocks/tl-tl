@@ -84,10 +84,10 @@ local Tree = {}
 local t = {
    item = 1,
    { item = 2 },
-   { item = "wtf", { item = 4 } },
+   { item = 3, { item = 4 } },
 }
 
-assert(t[2].item == "wtf")
+assert(t[2].item == 3)
 
 
 

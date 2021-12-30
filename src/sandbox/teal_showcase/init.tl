@@ -87,7 +87,7 @@ local t: Tree<number> = {
   { item = 3, { item = 4 } },  
 }
 
-assert(t[2].item as string == "wtf")
+assert(t[2].item == 3)
 
 
 -- Enums are sets of strings.

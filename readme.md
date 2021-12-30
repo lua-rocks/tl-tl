@@ -3,6 +3,8 @@
 This repository contains minimal presets for comfortable work with a
 [Teal](https://github.com/teal-language/tl)-based project.
 
+PLEASE NOTE: THIS REPO IS UNDER DEVELOPMENT AND NOT INTENDED FOR ANYONE YET!
+
 ## Branches
 
 + **main** - for pure teal project

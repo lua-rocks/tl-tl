@@ -107,7 +107,7 @@ assert(move == "south")
 
 
 
-local function test(...)
+function test(...)
    return ...
 end
 

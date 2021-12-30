@@ -112,7 +112,6 @@ function test(...: number): number... -- Another bug?
 end
 
 local a, b, c = test(1, 2, 3)
-
 assert(a == 1 and b == 2 and c == 3)
 
 

@@ -7,7 +7,7 @@
       "label": "Run",
       "type": "shell",
       "options": {"cwd": "${workspaceFolder}"},
-      "command": ".vscode/tasks/default.sh",
+      "command": "run/default.sh",
       "args": [],
       "group": {"kind": "build", "isDefault": true}
     }

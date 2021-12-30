@@ -84,8 +84,8 @@ end
 local t: Tree<number> = {
   item = 1,
   { item = 2 },
-  { item = "wtf", { item = 4 } }, -- Here should be an error, but...  
-} -- This bug is already fixed, lets wait for the latest tl release.
+  { item = 3, { item = 4 } },  
+}
 
 assert(t[2].item as string == "wtf")
 

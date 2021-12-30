@@ -90,4 +90,30 @@ local t = {
 assert(t[2].item == "wtf")
 
 
+
+
+
+local Direction = {}
+
+
+
+
+
+
+local move = "south"
+assert(move == "south")
+
+
+
+
+
+local function test(...)
+   return ...
+end
+
+local a, b, c = test(1, 2, 3)
+
+assert(a == 1 and b == 2 and c == 3)
+
+
 print("done")

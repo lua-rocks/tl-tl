@@ -90,4 +90,30 @@ local t: Tree<number> = {
 assert(t[2].item as string == "wtf")
 
 
+-- Enums are sets of strings.
+
+
+local enum Direction
+  "north"
+  "south"
+  "east"
+  "west"
+end
+
+local move:Direction = "south"
+assert(move == "south")
+
+
+-- Example of functions and varargs:
+
+
+function test(...: number): number... -- Another bug?
+  return ...
+end
+
+local a, b, c = test(1, 2, 3)
+
+assert(a == 1 and b == 2 and c == 3)
+
+
 print "done"

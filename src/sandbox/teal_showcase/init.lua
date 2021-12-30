@@ -107,12 +107,11 @@ assert(move == "south")
 
 
 
-function test(...)
+local function test(...)
    return ...
 end
 
 local a, b, c = test(1, 2, 3)
-
 assert(a == 1 and b == 2 and c == 3)
 
 

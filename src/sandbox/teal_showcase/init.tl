@@ -107,7 +107,7 @@ assert(move == "south")
 -- Example of functions and varargs:
 
 
-function test(...: number): number... -- Another bug?
+local function test(...: number): number...
   return ...
 end
 

@@ -13,14 +13,8 @@ local record Rect
 end
 
 
-function Rect:new(top_left: Point, right_bottom: Point): Rect
-  do -- Allow using this method from other classes
-    self = self or {}
-    self.super = self.super or Rect
-    self = setmetatable({} as Rect, { __index = self.super })
-  end
-
-  top_left.new(self)
+function Rect:init(top_left: Point, right_bottom: Point): Rect
+  top_left.init(self)
 
   self.w = right_bottom.x - top_left.x
   self.h = right_bottom.y - top_left.y

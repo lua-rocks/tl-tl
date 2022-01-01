@@ -5,17 +5,9 @@ local record Point
 end
 
 
-function Point:new(x: number, y: number): Point
-  do -- Allow using this method from other classes
-    self = self or {}
-    self.super = self.super or Point
-    self = setmetatable({} as Point, { __index = self.super })
-  end
-
+function Point:init(x: number, y: number): Point
   self.x = x or 0
   self.y = y or 0
-
-  return self
 end
 
 
